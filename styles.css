@@ -629,6 +629,9 @@ padding.botthom.and.line.height
  .explorebox {
     margin-top: 6rem;
  }
+ .indexbox{
+    margin-top: -3rem;
+ }
 }
  /*
  .image{
