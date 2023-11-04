@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://use.typekit.net/emx4ajv.css">
+<meta name="author" content="Zirwa Tariq" >
+<title>Sortify |About page</title>
+<meta name="keyword" content="Oswego,Housing in Oswego,Centro">
+<meta name="description" content="The Information source for International students coming to Oswego">
+<link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <a id="skip" href="#mainPage"> Skip to main </a>
+<header class="tophead">
+    <div class="log">
+        <a href="index.html">
+            <img src="assets/logoupdatessmall1.png" alt="Sortify word with the O replaced by magnifying glass 
+            and tagline of oswego guideline for international students" class="logo">
+        </a> 
+        <a href="index.html">
+            <img src="assets/logoupdatessmall.png" alt="Sortify word with the O replaced by magnifying glass 
+            and tagline of oswego guideline for international students" class="loge">
+        </a> 
+</div>
+<div class="logs">
+    <button onclick="openNav()"><img src="assets/menu.png" class="menubt" alt="hamburgermenu"></button>
+
+    <nav class="drawer" id="theDrawer">
+            <!-- the aria-label helps screen reader users understand the purpose of the button because of the unclear text "x". 
+                When the botton gains keyboard focus it opens the navigation so that the keyboard focus can be visible. assets/WEBlogoF.png -->
+            <button aria-label="Close" class="closeBtn" onfocus="openNav()" onclick="closeNav()">&times;</button>
+        <ul class="bar">
+            <li><a href="house.html" onfocus="openNav()"> Housing</a></li>
+            <li><a href="Grocery.html" onfocus="openNav()">Grocery</a></li>
+            <li><a href="plantrip.html" onfocus="openNav()" onblur="closeNav()"> Plan a trip</a></li>
+        </ul>
+    </nav> 
+</div>
+</header>
+<main id="mainPage">
+    <h1><span class="first">About</span> <br>This Website</h1>
+<p class="indexheading">
+    Every year, a large number of students from various countries come to study at <abbr title="State University Of NewYork">SUNY</abbr> Oswego. 
+    Although school can be a major aid in the adjustment process, but still most people are unfamiliar with how the living system works at new place. 
+    where they can obtain their groceries, or how to organize a trip.
+    This website addresses some of these issues, including housing, groceries, and transport in and from Oswego.
+</p>
+<h2>Explore more</h2>
+<div class="top">
+
+<div class="image">
+    <div class="image__first">
+        <a href="house.html"><img src="assets/indexpaget-04.png" alt="House with light smoke coming out of the chimney" class="mainimgimg" ></a>
+</div>
+    <div class="img__overlay">  
+    <a href="house.html" class= "teaser__link">About Housing</a>
+    </div>
+</div>
+
+<div class="image">
+<div class="image__first">
+    <a href="Grocery.html"><img src="assets/indexpaget-05.png" alt="Shelf with options of meat, vegetables and fruits" class="mainimgimg"></a>
+</div>
+        <div class="img__overlay">
+            <a href="Grocery.html" class="teaser__link">About Grocery</a>
+            </div>
+</div>
+
+<div class="image">
+<div class="image__first">
+    <a href="plantrip.html"><img src="assets/indexpaget-06.png" alt="Girl with suitcase with globe in backgroud and airplane flying" class="mainimgimg"></a>
+</div>
+    <div class="img__overlay">
+        <a href="plantrip.html" class="teaser__link">About Traveling</a>
+        </div>
+   </div>
+   
+</div>
+ </main>
+ <a href="#mainPage" id="back_top"><img src="assets/backtotop.png" alt="back to top"></a>
+ <footer>
+    <a href="404.html" class="erroricon">Contact us at gmail</a>
+   <p>Design &copy;2022 Zirwa Tariq , Most of the data available on internet under different sources and
+       See the <a href="copyrights.html" class="links">copyright</a> document for detailed data.</p>
+      
+</footer>
+<script src="drawer.js"> 
+</script>
+</body>
+</html>
