@@ -626,6 +626,9 @@ padding.botthom.and.line.height
  .indexheading {
     max-width: 48rem;
  }
+ .explorebox {
+    margin-top: 6rem;
+ }
 }
  /*
  .image{
