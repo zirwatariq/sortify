@@ -471,7 +471,7 @@ padding.botthom.and.line.height
                 max-width: 100rem;
                 background-color: #ffffff;
                
-                padding: 1.5rem 4rem;
+                padding: 1rem 4rem;
             }
             button.closeBtn {
                 display: none;
@@ -495,12 +495,13 @@ padding.botthom.and.line.height
                 position: absolute;
                 transition: none;
                 margin-right: 20rem;
-                margin-top: -1.5rem;
+                margin-top: -2rem;
             
                 }
             img.logo {
                 display: block;
                 width: 25%;      
+                margin-top: 1rem;
         }
         img.topimg{
            display: none;
